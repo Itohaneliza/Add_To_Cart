@@ -46,32 +46,41 @@
 }
 
 .add{
+    font-size: 25px;
+    font-weight: 900;
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: var(--text-color);
-    color: var(--bg-color);
+    /* background-color: var(--text-color); */
+    /* color: var(--bg-color); */
     padding: 10px;
     cursor: pointer;
 }
 .add:hover{
-    background-color: hsl(251, 49%, 20%);
+    background-color: #1d4ed8;
+    border-radius: 50px;
+    transition: .3s;
 }
 
-.like{
+.like {
+    font-size: 25px;
     position: absolute;
     bottom: 0;
     margin-left: 20px;
     /* right: 5px; */
-    background-color: var(--text-color);
-    color: var(--bg-color);
+    /* background-color: var(--text-color); */
+    /* color: var(--bg-color); */
     padding: 10px;
     cursor: pointer;
 }
-.like:hover{
-    background-color: hsl(251, 49%, 20%);
+.like:hover {
+    background-color:#1d4ed8;
+    border-radius: 50px;
+    transition: .3s;
 }
-
+.clicked{
+    color: red;
+}
 
 
 

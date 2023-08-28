@@ -2,6 +2,7 @@
 const cartIcon = document.querySelector("#cart-icon");
 const cart = document.querySelector(".cart");
 const closeCart = document.querySelector("#cart-close");
+const likeCart = document.querySelector(".like");
 
 cartIcon.addEventListener('click' , ()=>{
     cart.classList.add('active');
@@ -150,5 +151,91 @@ function CartBoxComponent(title, price, imgsrc){
 }
 
 
+//*************HEARTLIKE BUTTON ACTIVATED*********** */
+// ***********FIRST BUTTON***************
+const heartButton = document.getElementById("like1");
+
+heartButton.addEventListener("click", function() {
+  if (heartButton.classList.contains("clicked")) {
+    heartButton.classList.remove("clicked");
+  } else {
+    heartButton.classList.add("clicked");
+  }
+});
+
+// ***************SECOND BUTTON*****************
+const heartButton2 = document.getElementById("like2");
+
+heartButton2.addEventListener("click", function() {
+  if (heartButton2.classList.contains("clicked")) {
+    heartButton2.classList.remove("clicked");
+  } else {
+    heartButton2.classList.add("clicked");
+  }
+});
+
+// ******************THIRD BUTTON***************
+const heartButton3 = document.getElementById("like3");
+
+heartButton3.addEventListener("click", function() {
+  if (heartButton3.classList.contains("clicked")) {
+    heartButton3.classList.remove("clicked");
+  } else {
+    heartButton3.classList.add("clicked");
+  }
+});
+
+// *********************FOURTH BUTTON *********************
+const heartButton4 = document.getElementById("like4");
+
+heartButton4.addEventListener("click", function() {
+  if (heartButton4.classList.contains("clicked")) {
+    heartButton4.classList.remove("clicked");
+  } else {
+    heartButton4.classList.add("clicked");
+  }
+});
+// **************FIFTH BUTTON***********************
+const heartButton5 = document.getElementById("like5");
+
+heartButton5.addEventListener("click", function() {
+  if (heartButton5.classList.contains("clicked")) {
+    heartButton5.classList.remove("clicked");
+  } else {
+    heartButton5.classList.add("clicked");
+  }
+});
+
+// ******************SIXTH BUTTON******************
+const heartButton6 = document.getElementById("like6");
+
+heartButton6.addEventListener("click", function() {
+  if (heartButton6.classList.contains("clicked")) {
+    heartButton6.classList.remove("clicked");
+  } else {
+    heartButton6.classList.add("clicked");
+  }
+});
+
+// *******************SEVENTH BUTTON***************
+const heartButton7 = document.getElementById("like7");
+
+heartButton7.addEventListener("click", function() {
+  if (heartButton7.classList.contains("clicked")) {
+    heartButton7.classList.remove("clicked");
+  } else {
+    heartButton7.classList.add("clicked");
+  }
+});
+// **********************EIGHTH BUTTON***************
+const heartButton8 = document.getElementById("like8");
+
+heartButton8.addEventListener("click", function() {
+  if (heartButton8.classList.contains("clicked")) {
+    heartButton8.classList.remove("clicked");
+  } else {
+    heartButton8.classList.add("clicked");
+  }
+});
 
                     

@@ -8,6 +8,7 @@
     text-decoration: none;
     scroll-behavior: smooth;
     scroll-padding: 2rem;
+    /* background: linear-gradient(90deg, #a5f3fc  0%, #1d4ed8 100% ); */
 }
 
 :root{
